@@ -389,7 +389,7 @@ bUseHDRDisplayOutput=False
 HDRDisplayOutputNits=1000
 
 [SessionSettings]
-SessionName=SKIP THE GRIND [15X] NO WIPE PSP01
+SessionName=However you want your server name to appear in the search
 Port=7805
 QueryPort=27030
 MultiHome=
