@@ -1,0 +1,8 @@
+@echo off
+echo Authenticating with Steam...
+cd /d "C:\steamcmd"
+steamcmd.exe +force_install_dir "C:\Program Files (x86)\Steam\steamapps\common\ARK Survival Ascended Dedicated Server" +login username password  +app_update 2430930 validate +quit
+
+echo Starting the Ark Server...
+cd /d "C:\Program Files (x86)\Steam\steamapps\common\ARK Survival Ascended Dedicated Server\ShooterGame\Binaries\Win64"
+start ArkAscendedServer.exe TheIsland_WP?listen?Port=7805?QueryPort=27030?MaxPlayers=70?AllowCrateSpawnsOnTopOfStructures=True -ForceAllowCaveFlyers -EnableIdlePlayerKick -NoTransferFromFiltering -NoBattlEye -servergamelog -servergamelogincludetribelogs -ServerRCONOutputTribeLogs -NotifyAdminCommandsInChat -nosteamclient -game -server -log
