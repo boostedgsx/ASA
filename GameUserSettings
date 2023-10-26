@@ -401,7 +401,7 @@ MaxPlayers=70
 MultiHome=False
 
 [MessageOfTheDay]
-Message=Welcome! Link to our Discord --> discord.gg/4XFMYA3Zz
+Message=
 Duration=20
 
 [/Script/Engine.GameUserSettings]
